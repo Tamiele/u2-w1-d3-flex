@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  color: #612406;
+}
+header {
+  background-color: #fef7e2;
+  padding: 1rem;
+
+  font-size: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+ul li img {
+  max-width: 25px;
+}
+nav ul li {
+  display: flex;
+  border-radius: 30px;
+  padding-inline: 1rem;
+  padding-block: 0.6rem;
+  background-color: #ffdf7f;
+  align-items: center;
+}
+main {
+  padding: 1rem;
+}
+
+.containerCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 48%;
+  border-radius: 35px;
+  background-color: #fef7e2;
+}
+
+.card img {
+  width: 100%;
+}
+.textCard {
+}
+.price {
+}
+
+.buttonCard {
+  background-color: #ffdf7f;
+  border-radius: 20px;
+  border: none;
+  padding-inline: 20px;
+  padding-block: 6px;
+}
