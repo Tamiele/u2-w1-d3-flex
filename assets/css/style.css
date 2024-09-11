@@ -11,21 +11,33 @@ header {
 
   font-size: 1rem;
 }
-nav ul {
+header nav ul {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 15px;
 }
-ul li img {
+header ul li img {
   max-width: 25px;
 }
-nav ul li {
+header nav ul li {
   display: flex;
   border-radius: 30px;
-  padding-inline: 1rem;
-  padding-block: 0.6rem;
+  padding: 7px;
+  height: 18px;
   background-color: #ffdf7f;
   align-items: center;
+}
+header nav ul li span {
+  position: relative;
+
+  left: 2px;
+}
+header nav ul li:nth-of-type(3) {
+  bottom: 9px;
+  position: relative;
+
+  padding: 10px;
+  height: 30px;
 }
 main {
   padding: 12px;
@@ -36,6 +48,7 @@ h1 {
   font-weight: bold;
 }
 .containerCard {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -43,7 +56,7 @@ h1 {
 .card {
   display: flex;
   flex-wrap: wrap;
-  width: 48%;
+  width: 15rem;
   border-radius: 35px;
   background-color: #fef7e2;
 }
