@@ -1,3 +1,4 @@
+/*---------------------------------------------------------------*/
 body {
   height: 100vh;
   width: 100%;
@@ -13,6 +14,7 @@ header {
 nav ul {
   display: flex;
   justify-content: center;
+  gap: 5px;
 }
 ul li img {
   max-width: 25px;
@@ -26,18 +28,21 @@ nav ul li {
   align-items: center;
 }
 main {
-  padding: 1rem;
+  padding: 12px;
 }
-
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 36px;
+  font-weight: bold;
+}
 .containerCard {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 .card {
-  align-items: center;
-  flex-direction: column;
   display: flex;
+  flex-wrap: wrap;
   width: 48%;
   border-radius: 35px;
   background-color: #fef7e2;
@@ -45,10 +50,17 @@ main {
 
 .card img {
   width: 100%;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
 }
 .textCard {
+  margin-top: 8px;
+  margin-left: 15px;
 }
 .price {
+  margin-top: 13px;
+  margin-left: auto;
+  margin-right: 10px;
 }
 
 .buttonCard {
@@ -57,4 +69,27 @@ main {
   border: none;
   padding-inline: 20px;
   padding-block: 6px;
+  margin-inline: auto;
+  margin-block: 10px;
+}
+
+h2 {
+  margin-block: 1rem;
+  font-size: 26px;
+  font-weight: bold;
+}
+article {
+  gap: 15px;
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fef7e2;
+}
+article h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+article img {
+  width: 100%;
 }
